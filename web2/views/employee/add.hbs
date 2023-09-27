@@ -1,0 +1,25 @@
+<form action="/employee" method="post" class="">
+    <h2>Add new employee</h2>
+    Name: <input class="form-control" type="text" name="name" required>
+    <br><br>
+    Birthday: <input class="form-control" type="date" name="birthday" required>
+    <br><br>
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+    Email: <input class="form-control" type="email" name="email" id="">
+    <br><br>
+    Position:
+    <select class="form-control" name="position" id="">
+        <option value="Director">Director</option>
+        <option value="Manager">Manager</option>
+        <option value="Staff">Staff</option>
+        <option value="Security">Security</option>
+    </select>
+    <br><br>
+    Introduction: 
+    <textarea class="form-control" name="introduction" id="" cols="20" rows="5"></textarea>
+    <br><br>
+    <input type="submit" value="Add">
+</form>
